@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgba(31, 224, 41, 0.473);
+}
+/*button */
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(214, 10, 61, 0.918);
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 2px 17px 9px 0px rgba(81, 13, 206, 0.877);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+
+}
